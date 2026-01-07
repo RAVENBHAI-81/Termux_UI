@@ -18,6 +18,7 @@ This project is made for learning, fun, and customization of the Termux environm
 
 ## 📁 Folder Structure
 ├── README.md
+├── requirements.txt
 ├── ZeroFun
 │   ├── brute.sh
 │   ├── decrypt_sim.sh
@@ -49,38 +50,39 @@ They are just **fake simulations / visual fun scripts** made for entertainment a
 
 Open Termux and run:
 
-```bash
+`bash
 pkg update -y
 pkg install git -y
 git clone https://github.com/RAVENBHAI-81/Termux_UI.git
 cd Termux_UI
 chmod +x *.sh
 bash enable.sh
-Then restart Termux.
+Then restart Termux.`
 
-▶️ Enable Manually
+##▶️ Enable Manually
 If not enabled:
 Copy code
-Bash
-bash enable.sh
-❌ Remove Termux_UI
+`Bash
+bash enable.sh`
+
+##❌ Remove Termux_UI
 To restore default:
 Copy code
-Bash
-bash remove.sh
+`Bash
+bash remove.sh`
 Restart Termux after removing.
-🛠 About bashrc
-The file is named bashrc (not .bashrc) to avoid being hidden on some file managers.
-The enable.sh script handles placing it correctly.
-🧪 Run fun scripts
+
+##🧪 Run fun scripts
 Example:
 Copy code
-Bash
+`Bash
 cd ZeroFun
-bash brute.sh
+bash brute.sh`
+
 ❤️ Disclaimer
 This project is for education and fun only.
 The author is not responsible for any misuse.
-👤 Author
+
+##👤 Author
 RAVEN RX
 Bangladesh 🇧🇩
