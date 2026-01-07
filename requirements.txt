@@ -1,0 +1,10 @@
+bash
+git
+figlet
+toilet
+lolcat
+neofetch
+mpv
+termux-api
+ncurses-utils
+coreutils
